@@ -1,0 +1,15 @@
+C:\.github\OutboxSagaDemo\ConsoleAppTester\bin\Debug\net9.0\ConsoleAppTester.exe
+C:\.github\OutboxSagaDemo\ConsoleAppTester\bin\Debug\net9.0\ConsoleAppTester.deps.json
+C:\.github\OutboxSagaDemo\ConsoleAppTester\bin\Debug\net9.0\ConsoleAppTester.runtimeconfig.json
+C:\.github\OutboxSagaDemo\ConsoleAppTester\bin\Debug\net9.0\ConsoleAppTester.dll
+C:\.github\OutboxSagaDemo\ConsoleAppTester\bin\Debug\net9.0\ConsoleAppTester.pdb
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.AssemblyInfoInputs.cache
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.AssemblyInfo.cs
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.csproj.CoreCompileInputs.cache
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.sourcelink.json
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.dll
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\refint\ConsoleAppTester.dll
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.pdb
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ConsoleAppTester.genruntimeconfig.cache
+C:\.github\OutboxSagaDemo\ConsoleAppTester\obj\Debug\net9.0\ref\ConsoleAppTester.dll

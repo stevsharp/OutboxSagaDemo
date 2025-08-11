@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OutboxSagaDemo\\OutboxSagaDemo.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ConsoleAppTester\\ConsoleAppTester.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

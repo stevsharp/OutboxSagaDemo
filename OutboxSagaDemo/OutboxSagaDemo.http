@@ -1,0 +1,6 @@
+@OutboxSagaDemo_HostAddress = http://localhost:5122
+
+GET {{OutboxSagaDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
