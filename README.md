@@ -44,3 +44,36 @@ src/
 ```bash
 git clone https://github.com/<your-username>/mass-transit-order-saga.git
 cd mass-transit-order-saga
+```
+2️⃣ Set up PostgreSQL & RabbitMQ (via Docker)
+
+docker-compose up -d
+(docker-compose.yml is included in this repo)
+
+3️⃣ Apply EF Core migrations
+
+dotnet ef database update
+4️⃣ Run the app
+
+dotnet run
+🔄 Workflow
+OrderSubmitted event starts the saga.
+
+Saga requests stock reservation.
+
+If stock is available, saga requests payment authorization.
+
+Once payment is authorized, saga completes the order.
+
+Saga is marked as completed and archived.
+
+🧪 Testing
+You can send events using any message publisher (MassTransit client, Postman with RabbitMQ HTTP API, etc.).
+
+Example payload for OrderSubmitted:
+
+{
+  "OrderId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+  "CustomerEmail": "customer@example.com",
+  "Total": 99.99
+}
