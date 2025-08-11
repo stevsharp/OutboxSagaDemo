@@ -19,7 +19,7 @@ A working example of an **Order Processing Saga** using:
 
 ---
 
-## 🗂 Project Structure
+🗂 Project Structure
 src/
 ├── Consumers/ # Event consumers
 ├── Messages/ # Message contracts
@@ -30,7 +30,7 @@ src/
 
 ---
 
-## 🛠 Requirements
+🛠 Requirements
 - [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download)
 - [PostgreSQL](https://www.postgresql.org/)  
 - [RabbitMQ](https://www.rabbitmq.com/)  
@@ -48,18 +48,24 @@ cd mass-transit-order-saga
 
 ##2️⃣ Set up PostgreSQL & RabbitMQ (via Docker)
 
+```bash
 docker-compose up -d
 (docker-compose.yml is included in this repo)
+```
+3️⃣ Apply EF Core migrations
 
-##3️⃣ Apply EF Core migrations
-
+```bash
 dotnet ef database update
+```
 
 ##4️⃣ Run the app
 
-dotnet run
 
-##🔄 Workflow
+```bash
+dotnet run
+```
+
+🔄 Workflow
 
 OrderSubmitted event starts the saga.
 Saga requests stock reservation.
@@ -67,16 +73,19 @@ If stock is available, saga requests payment authorization.
 Once payment is authorized, saga completes the order.
 Saga is marked as completed and archived.
 
-##🧪 Testing
+🧪 Testing
 You can send events using any message publisher (MassTransit client, Postman with RabbitMQ HTTP API, etc.).
 
 Example payload for OrderSubmitted:
 
+```bash
 {
   "OrderId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
   "CustomerEmail": "customer@example.com",
   "Total": 99.99
 }
+
+```
 
 ## Connect with Me
 
