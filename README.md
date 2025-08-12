@@ -19,14 +19,14 @@ A working example of an **Order Processing Saga** using:
 
 ---
 
-🗂 Project Structure
--src/
--├── Consumers/ # Event consumers
--├── Messages/ # Message contracts
--├── Sagas/ # State machine & state model
--├── Program.cs # Application entry point
--├── OrdersSagaDbContext.cs
--└── ...
+## 🗂 Project Structure
+- src/
+- ├── Consumers/ # Event consumers
+- ├── Messages/ # Message contracts
+- ├── Sagas/ # State machine & state model
+- ├── Program.cs # Application entry point
+- ├── OrdersSagaDbContext.cs
+- └── ...
 
 ---
 
